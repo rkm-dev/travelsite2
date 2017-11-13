@@ -2,14 +2,22 @@
 
   @mixin clearfix;
 
-  /*counteract the padding value in the div below*/
-  &--gutters {
-    margin-right: -65px;
-  }
-  /*only the direct children div of row--gutters class*/
-  &--gutters > div {
-    padding-right: 65px;
-  }
+    /*counteract the padding value in the div below*/
+    &--gutters {
+      margin-right: -65px;
+    }
+    /*only the direct children div of row--gutters class*/
+    &--gutters > div {
+      padding-right: 65px;
+    }
+
+    &--gutters-large {
+      margin-right: -100px;
+    }
+
+    &--gutters-large > div {
+      padding-right: 100px;
+    }
 
   &__b-margin-untill-medium {
     margin-bottom: 1rem;
@@ -28,6 +36,11 @@
 
     &__medium-4--larger {
       width: 37%;
+    }
+
+    &__medium-6 {
+      float: left;
+      width: 50%;
     }
 
     &__medium-8 {
