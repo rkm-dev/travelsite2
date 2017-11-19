@@ -8,6 +8,7 @@
   border-radius: .18rem;
   box-shadow: 0 0 .09rem .09rem lightblue;
   text-shadow: 0 0 .6rem #fff;
+  transition: all .3s ease-out;
 
   &--orange{
     background-color: $mainOrange;
@@ -20,5 +21,10 @@
     @mixin atSmall {
       font-size: 1.25rem;
     }
+  }
+
+  &--small {
+    font-size: .8rem;
+    padding: .7rem 1rem;
   }
 }
