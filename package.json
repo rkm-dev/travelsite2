@@ -2,8 +2,10 @@
   "name": "travel-site",
   "version": "1.0.0",
   "dependencies": {
+    "browser-sync-ui": "^0.6.3",
     "graceful-fs": "^4.1.11",
     "jquery": "^3.2.1",
+    "jquery-smooth-scroll": "^2.2.0",
     "minimatch": "^3.0.4",
     "normalize.css": "^7.0.0",
     "waypoints": "^4.0.1"
