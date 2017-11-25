@@ -40,7 +40,7 @@
 
 			/*activates when site-header--dark is selected*/
 			.site-header--dark & {
-				transform: scale(.57);
+				transform: scale(.56);
 				background-color: transparent;
 			}
 		}	
